@@ -1,0 +1,531 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2.1rem;
+}
+p{
+    font-size: 1.6rem;
+}
+li{
+    list-style: none;
+}
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 0rem;
+    margin-top: 0.1rem;
+    width: 100%;
+    height: 5.4rem;
+}
+.item1{
+    display: flex;
+    align-items: center;
+}
+.menu:focus-within {
+    border-style: dashed;
+}
+
+.menu {
+    cursor: pointer;
+    width: 4rem;
+    height: 5rem;
+    border-style: none;
+    font-size: 2.6rem;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.lupa:focus-within {
+    border-style: dotted;
+}
+
+.lupa {
+    cursor: pointer;
+    background-color: white;
+    border-style: none;
+    width: 3rem;
+    height: 4rem;
+    font-size: 1.5rem;
+}
+
+.imagen {
+    width: 10rem;
+    height: 5.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    width: 10rem;
+    height: 5rem;
+}
+
+.imgMicro {
+    margin: auto;
+    width: 10rem;
+    height: 2.3rem;
+}
+.containerCompras{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+}
+.comprasA {
+    margin: 1rem 1rem;
+    width: 2rem;
+}
+.carritoCompras {
+    margin: 1.5;
+    width: 1.5rem;
+}
+.userAdd{
+    cursor: pointer;
+    margin: 1rem 1rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.office{
+    display: none;
+}
+.officePhone{
+    width: 100%;
+    height: auto;
+}
+.containerText{
+    width: 100%;
+    padding: 4.8rem 1.2rem 3rem 1.2rem;
+}
+.titleMi{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.mainText{
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+.mainDiv{
+    width: 100%;
+    height: 10rem;
+    font-size: 1.6rem;
+}
+.mainBotton{
+    border-radius: 1rem;
+    border: blue;
+    text-decoration: none;
+    margin: 2rem 2.4rem 0.8rem 0;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    background-color: #0067B8;
+    color: white;
+    width: 40%;
+    height: 3rem;
+}
+.link1{
+    display: block;
+    text-decoration: none;
+    margin: 2rem 2.4rem 0.8rem 0;
+    color: #0067B8;
+    width: 60%;
+    height: 3rem;
+}
+
+
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.article1{
+    width: 100%;
+    padding: 0 1.2rem 0 1.2rem;
+    margin-bottom: 3rem;
+}
+.containerWindows11{
+    width: 100%;
+    height: 20rem;
+}
+.windows11{
+    background-color: #88c6f5;
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.divArc1{
+    padding-top: 1.6rem ;
+}
+.titleArc1{
+    margin-bottom: 0.8rem;
+}
+.divlinkArc1{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    padding-top: 1.6rem;
+}
+.linkArc1{
+    margin: 1rem 2.4rem 1rem 0;
+    color: blue;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+
+
+
+
+.article2{
+    width: 100%;
+    padding: 0 1.2rem 0 1.2rem;
+    margin-bottom: 3rem;
+}
+.containerEdge{
+    width: 100%;
+    height: 20rem;
+}
+.microsoftEdge{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.divArc2{
+    padding-top: 1.6rem ;
+}
+.titleArc2{
+    margin-bottom: 0.8rem;
+}
+.divlinkArc2{
+    padding-top: 1.6rem;
+}
+.linkArc2{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+
+
+.article3{
+    width: 100%;
+    height: 38rem;
+    padding: 0 1.2rem 0 1.2rem;
+    margin-bottom: 3rem;
+}
+.containerOneDrive{
+    width: 100%;
+    height: 20rem;
+}
+.oneDrive{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.divArc3{
+    padding-top: 1.6rem ;
+}
+.titleArc3{
+    margin-bottom: 0.8rem;
+}
+.divlinkArc3{
+    padding-top: 1.6rem;
+}
+.linkArc3{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+
+
+.article4{
+    width: 100%;
+    height: 35rem;
+    padding: 0 1.2rem 0 1.2rem;
+    margin-bottom: 3rem;
+}
+.containerOneNote{
+    width: 100%;
+    height: 20rem;
+}
+.oneNote{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.divArc4{
+    padding-top: 1.6rem ;
+}
+.titleArc4{
+    margin-bottom: 0.8rem;
+}
+.divlinkArc4{
+    padding-top: 1.6rem;
+}
+.linkArc4{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+
+
+.bottomGray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 189, 189);
+    height: 26rem;
+    object-fit: cover;
+}
+.imgOutlook{
+    margin-top: 6rem;
+    background-color: rgb(190, 189, 189);
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.containerText2{
+    width: 100%;
+    padding: 4.8rem 1.2rem 3rem 1.2rem;
+}
+.titleOut{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.mainText2{
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+.mainDiv2{
+    width: 100%;
+    height: 10rem;
+    font-size: 1.6rem;
+}
+.mainBotton2{
+    border-radius: 1rem;
+    border: blue;
+    text-decoration: none;
+    margin: 2rem 2.4rem 0.8rem 0;
+    padding: 1rem 1.2rem 1rem 1.2rem;
+    background-color: #0067B8;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+}
+
+
+
+.titlesection2{
+    font-size: 2.4rem;
+    width: 25rem;
+    margin: 0 1.2rem 1rem 1.2rem;
+}
+
+
+
+.containerIncrease{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    padding: 0 1.2rem;
+}
+.textIncrease{
+    width: 12rem;
+    margin-right: 1.2rem;
+    font-size: 1.6rem;
+}
+.ulIncrease{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.imgfacebook{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.imglinkedin{
+    width: 3.2rem;
+    height: 3.2rem;
+}
+.subir{
+    padding: 0 1.2rem 0 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(202, 202, 202);
+}
+.linkimagen{
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+
+
+footer{
+    margin-top: 4.2rem;
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 248, 248);
+}
+.containerfooter{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+    width: 100%;
+    height: auto;
+}
+
+
+
+li:hover{
+    text-decoration: underline;
+}
+
+
+
+.div1{
+    padding: 0 1.2rem;
+    width: 100%;
+    height: 7.9rem;
+}
+.titles{
+    padding: 3.6rem 0 0.4rem 0;
+    font-size: 1.5rem;
+}
+.links{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: gray;
+}
+.liFooter{
+    padding: 0.8rem 0;
+}
+
+
+
+.div2{
+    padding: 0 1.2rem;
+    width: 100%;
+    height: 14rem;
+}
+
+
+
+.div3{
+    padding: 0 1.2rem;
+    width: 100%;
+}
+
+
+
+.div4{
+    padding: 0 1.2rem;
+    width: 100%;
+    height: 28rem;
+}
+
+
+
+.div5{
+    padding: 0 1.2rem;
+    width: 100%;
+    height: 28rem;
+}
+
+
+
+.div6{
+    padding: 0 1.2rem;
+    width: 100%;
+    height: 25rem;
+}
+
+
+
+.finishContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 3rem 2.4rem 1.6rem 2.4rem;
+    width: 100%;
+    height: auto;
+}
+.mundo{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+.links1:hover{
+    text-decoration: underline;
+}
+.links1{
+    width: 23rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: gray;
+}
+.licrazys{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.li1Footer{
+    width: 15.8rem;
+    padding: 0.8rem 0;
+}
+.li2Footer{
+    width: 10rem;
+    padding: 0.8rem 0;
+}
+.li3Footer{
+    width: 10rem;
+    padding: 0.8rem 0;
+}
+.li4Footer{
+    width: 15.8rem;
+    padding: 0.8rem 0;
+}
+.li5Footer{
+    width: 15.8rem;
+    padding: 0.8rem 0;
+}
+
+.li6Footer:hover{
+    text-decoration: none;
+}
+.li6Footer{
+    width: 15.8rem;
+    padding: 0.8rem 0;
+}
