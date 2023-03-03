@@ -2,9 +2,13 @@
 
 Esta es una replica de la pagina principal de Microsoft, tomar en cuenta que son mis primeros conocimientos en maquetación y son los basicos, esto no contiene aún JavaScript.
 
-![Captura de pantalla de mi proyecto](./Imagenes/captura-pantalla-proyecto.png)
+<picture>
+    <img alt="Esto es una captura de pantalla de cómo se ve ya la página" src="./Imagenes/captura-pantalla-proyecto.png">
+</picture>
 
-![Captura de pantalla de mi proyecto](./Imagenes/captura-pantalla2-proyecto.png)
+<picture>
+    <img alt="Esto es una captura de pantalla de cómo se ve ya la página" src="./Imagenes/captura-pantalla2-proyecto.png">
+</picture>
 
 
 
